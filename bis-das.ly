@@ -13,18 +13,18 @@
 
 guitar = \relative c' {
     \key d \minor
-    a8 d f d a d f d |
+    a8 d f d a d f d  |
     bf d f d bf d f d |
-    g, c e c g c e c |
+    g, c e c g c e c  |
+    bf d f d a d f d  |
   }
 
 
 \score {
-  \new StaffGroup {
-    \tempo 4 = 80
-    \set Staff.midiInstrument = #"acoustic guitar (steel)"
     <<
       \new Staff {
+        \tempo 4 = 80
+        \set Staff.midiInstrument = #"acoustic guitar (steel)"
         \clef "treble_8"
         \guitar
      }
@@ -33,7 +33,7 @@ guitar = \relative c' {
         \guitar
       }
    >>
-  }
+
 
   \layout {}
   \midi {}
