@@ -28,7 +28,7 @@ guitar = \relative c' {
 \score {
     <<
       \new Staff {
-        \tempo 4 = 80
+        \tempo 4 = 75
         \set Staff.midiInstrument = #"acoustic guitar (steel)"
         \clef "treble_8"
         \guitar
