@@ -16,6 +16,11 @@ guitar = \relative c' {
     a8 d f d a d f d  |
     bf d f d bf d f d |
     g, c e c g c e c  |
+    bf d f d a d g d  |
+
+    a d f d a d f d   |
+    bf d f d bf d f d |
+    g, c e c g c e c  |
     bf d f d a d f d  |
   }
 
