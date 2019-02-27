@@ -26,12 +26,25 @@ guitar = \relative c' {
 
 mel = \relative c'' {
   \key d \minor
-  a8 a4 a8 a4 a   |
-  bf8 bf4 bf bf8 bf4 | 
+  a8 a4 a8 a4 a      |
+  bf8 bf4 bf bf8 bf4 |
+  g8 g g g g2        |
+  f4 f8 f f8 f f4    |
+  a4 a8 a a2         |
+  bf8 bf bf bf bf2   |
+  g4 g8 g8 g2        |
+  f8 f f4 e4 e       |
+
 }
 lyr = \lyricmode {
-  Die Nacht bricht her -- an
-  Es don -- nert, es blitzt!
+  Die Nacht bricht her -- an           |
+  Es don -- nert, es blitzt!           |
+  Und wäh -- rend du vor               |
+  dei -- nem neuen Fern -- seher sitzt |
+  Steht dei -- ne Frau                 |
+  Wie üb -- lich am Herd.              |
+  Egal was sie tut.                    |
+  Sie macht es ver -- kehrt            |
 }
 
 \score {
@@ -50,7 +63,7 @@ lyr = \lyricmode {
    >>
 
    \new Staff = "Timo" <<
-    \set Staff.midiInstrument = #"trumpet"
+    \set Staff.midiInstrument = #"flute"
 
     \new Voice = "Singstimme" \mel
     \addlyrics { \lyr }
