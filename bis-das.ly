@@ -13,15 +13,16 @@
 
 guitar = \relative c' {
   \key d \minor
-  a8 d f d a d f d  |
-  bf d f d bf d f d |
-  g, c e c g c e c  |
-  bf d f d a d e d  |
+  a8 d f d a d f d   |
+  bf d f d bf d f d  |
+  g, c e c g c e c   |
+  bf d f d a d e d   |
 
-  a d f d a d f d   |
-  bf d f d bf d f d |
-  g, c e c g c e c  |
-  bf d f d a d f d  |
+  a d f d a d f d    |
+  bf d f d bf d f d  |
+  g, c e c g c e c   |
+  % bf d f d a d f d  |
+  e, g bf g e g bf g |
 }
 
 mel = \relative c'' {
@@ -34,8 +35,8 @@ mel = \relative c'' {
   bf8 bf bf bf bf2   |
   g4 g8 g8 g2        |
   f8 f f4 e4 e       |
-
 }
+
 lyr = \lyricmode {
   Die Nacht bricht her -- an           |
   Es don -- nert, es blitzt!           |
