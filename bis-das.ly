@@ -27,8 +27,8 @@ guitar = \relative c' {
 
 mel = \relative c'' {
   \key d \minor
-  a8 a4 a8 a4 a      |
-  bf8 bf4 bf bf8 bf4 |
+  a8 a4 a4 a8 a4     |
+  bf8 bf bf2 bf8 bf  |
   g8 g g g g2        |
   f4 f8 f f8 f f4    |
   a4 a8 a a2         |
