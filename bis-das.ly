@@ -1,5 +1,4 @@
 \version "2.18.2"
-\include "predefined-guitar-fretboards.ly"
 
 \language "english"
 
@@ -13,43 +12,43 @@
 guitar = \relative c {
   \tempo 4 = 120
   \key a \minor
-  e8 a c a e a c a |
+  e8 a c a e a c a  |
   f8 a c a f a c a  |
   d,8 g b g d g b g |
-  f8 a c a f a e a  |
+  f8 a b a f a d a  |
 
   % 1. verse
   e8 a c a e a c a  |
   f8 a c a f a c a  |
   d,8 g b g d g b g |
-  f8 a c a f a e a  |
+  f8 a b a f a d a  |
 
   e8 a c a e a c a  |
   f8 a c a f a c a  |
   d,8 g b g d g b g |
-  f8 a c a f a e a  |
+  f8 a b a f a d a  |
 
   % 2. verse
   e8 a c a e a c a  |
   f8 a c a f a c a  |
   d,8 g b g d g b g |
-  f8 a c a f a e a  |
+  f8 a b a f a d a  |
 
   e8 a c a e a c a  |
   f8 a c a f a c a  |
   d,8 g b g d g b g |
-  f8 a c a f a e a  |
+  f8 a b a f a d a  |
 
   % 3. verse
   e8 a c a e a c a  |
   f8 a c a f a c a  |
   d,8 g b g d g b g |
-  f8 a c a f a e a  |
+  f8 a b a f a d a  |
 
   e8 a c a e a c a  |
   f8 a c a f a c a  |
   d,8 g b g d g b g |
-  f8 a c a f a e a  |
+  f8 a b a f a d a  |
 }
 
 pianoright = \relative c' {
@@ -104,7 +103,7 @@ lyr = \lyricmode {
       }
     >>
 
-    \new PianoStaff <<
+    %{\new PianoStaff <<
     \set PianoStaff.instrumentName = #"Piano"
       \new Staff {
         \pianoright
@@ -112,7 +111,7 @@ lyr = \lyricmode {
       \new Staff {
         \pianoleft
       }
-    >>
+    >>}%
 
 
    %{\new Staff = "Timo" <<
