@@ -12,43 +12,30 @@
 guitar = \relative c {
   \tempo 4 = 120
   \key a \minor
-  e8 a c a e a c a  |
-  f8 a c a f a c a  |
-  d,8 g b g d g b g |
-  f8 a b a f a d a  |
-
   % 1. verse
   e8 a c a e a c a  |
+  e8 a c a e a c a  |
+
   f8 a c a f a c a  |
-  d,8 g b g d g b g |
-  f8 a b a f a d a  |
+  f8 a c a f a c a  |
 
   e8 a c a e a c a  |
-  f8 a c a f a c a  |
-  d,8 g b g d g b g |
-  f8 a b a f a d a  |
-
-  % 2. verse
   e8 a c a e a c a  |
-  f8 a c a f a c a  |
-  d,8 g b g d g b g |
-  f8 a b a f a d a  |
+
+  e8 g b g e g b g  |
+  e8 g b g e g b g  |
 
   e8 a c a e a c a  |
-  f8 a c a f a c a  |
-  d,8 g b g d g b g |
-  f8 a b a f a d a  |
-
-  % 3. verse
   e8 a c a e a c a  |
-  f8 a c a f a c a  |
-  d,8 g b g d g b g |
-  f8 a b a f a d a  |
 
-  e8 a c a e a c a  |
   f8 a c a f a c a  |
-  d,8 g b g d g b g |
-  f8 a b a f a d a  |
+  f8 a c a f a c a  |
+
+  e8 g b g e g b g  |
+  e8 g b g e g b g  |
+
+  f8 a d a f a d a  |
+  e8 a c a e a c a  |
 }
 
 pianoright = \relative c' {
@@ -83,7 +70,7 @@ lyr = \lyricmode {
   Und wäh -- rend du vor               |
   dei -- nem neuen Fern -- seher sitzt |
   Steht dei -- ne Frau                 |
-  Wie üb -- lich am Herd.              |
+  Wie Üb -- lich am Herd.              |
   Egal was sie tut.                    |
   Sie macht es ver -- kehrt            |
 }
